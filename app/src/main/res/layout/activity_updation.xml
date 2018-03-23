@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anaya.shopkeeper.Updation">
+
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="Update Medicine" />
+
+    <EditText
+        android:id="@+id/medid"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/update"
+        android:layout_below="@+id/update"
+        android:layout_marginTop="93dp"
+        android:ems="10"
+        android:hint="Medicine Id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/stockno"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/update"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Stock Number"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/avail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update"
+        android:layout_marginTop="50dp"
+        android:layout_toStartOf="@+id/update"
+        android:text="Set Availability" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/medid"
+        android:layout_alignTop="@+id/avail"
+        android:layout_marginStart="29dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/stockno"
+        android:layout_below="@+id/stockno"
+        android:layout_marginTop="33dp"
+        android:text="Update" />
+</RelativeLayout>

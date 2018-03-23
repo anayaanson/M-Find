@@ -1,0 +1,4 @@
+#Thu Mar 08 23:40:29 IST 2018
+base.0=C\:\\Users\\Anaya\\AndroidStudioProjects\\ShopKeeper\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
