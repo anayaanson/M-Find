@@ -8,6 +8,6 @@ public class getUrl {
 
     public  String setUrl(String filename)
     {
-        return "http://192.168.0.10/S-MFind/"+filename;
+        return "http://192.168.43.101/S-MFind/"+filename;
     }
 }

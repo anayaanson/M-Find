@@ -58,7 +58,7 @@ int con = 0;
                    Toast.makeText(getApplicationContext(),"Enter Medicine ID",Toast.LENGTH_SHORT).show();
               else if(!medicine_id.getText().toString().startsWith("M-"))
                    Toast.makeText(getApplicationContext(),"Medicine-ID Starts with 'M-' ",Toast.LENGTH_SHORT).show();
-              else if(update.getText().toString().equals("") && con == 0)
+              else if(update.getText().toString().equals("") && con == 1)
                    Toast.makeText(getApplicationContext(),"Enter Quantity",Toast.LENGTH_SHORT).show();
               else
                     new Update().execute(medicine_id.getText().toString(),update.getText().toString(),status.getSelectedItem().toString());

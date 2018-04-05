@@ -1,80 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="24"
+    api-level="22"
     build-mode="COLD"
-    density="420dpi"
+    density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1522912952889"
-    token="6138645979317965439"
-    verifier="METHOD_ADDED" >
+    timestamp="1522929234439"
+    token="5316251044231807086"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="721" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="186" />
+        duration="0" />
     <task
         name="verifier"
-        duration="21" />
+        duration="0" />
 
     <artifact
-        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\outputs\apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1522911630188"
+        timestamp="1522928615182"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/outputs/apk/debug/app-debug.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1522912952889"
-        verifier="METHOD_ADDED" >
+        ir-eligibility="COMPATIBLE"
+        timestamp="1522928731693"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1522929234439"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Anaya\AndroidStudioProjects\M-Find\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
