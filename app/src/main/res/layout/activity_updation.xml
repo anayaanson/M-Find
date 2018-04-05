@@ -14,15 +14,17 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="86dp"
-        android:text="Update Medicine" />
+        android:text="Update Medicine"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/medid"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/update"
-        android:layout_below="@+id/update"
-        android:layout_marginTop="93dp"
+        android:layout_above="@+id/stockno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
         android:ems="10"
         android:hint="Medicine Id"
         android:inputType="textPersonName" />
@@ -31,10 +33,10 @@
         android:id="@+id/stockno"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/update"
         android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/avail"
         android:ems="10"
-        android:hint="Stock Number"
+        android:hint="Stock No."
         android:inputType="number" />
 
     <TextView
@@ -42,17 +44,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/update"
-        android:layout_marginTop="50dp"
-        android:layout_toStartOf="@+id/update"
-        android:text="Set Availability" />
+        android:layout_marginTop="47dp"
+        android:layout_toStartOf="@+id/spinner"
+        android:text="Availability" />
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="100dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/medid"
         android:layout_alignTop="@+id/avail"
-        android:layout_marginStart="29dp" />
+        android:layout_marginStart="19dp" />
 
     <Button
         android:id="@+id/submit"

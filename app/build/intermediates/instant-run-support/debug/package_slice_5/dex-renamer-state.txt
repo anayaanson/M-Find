@@ -1,4 +1,4 @@
-#Tue Feb 13 15:15:57 IST 2018
-base.0=C\:\\Users\\Anaya\\AndroidStudioProjects\\ShopKeeper\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+#Thu Apr 05 12:31:05 IST 2018
+base.0=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/transforms/dexMerger/debug/6
 path.0=classes.dex
 renamed.0=classes.dex

@@ -75,16 +75,17 @@ Typeface typeface;
     {
 
         String result;
-        String URL = "http://192.168.43.101/S-MFind/login.php"; //GET
+        String URL = new getUrl().setUrl("login.php");
         JSONParserArray jParser = new JSONParserArray();
         JSONArray jArray;
+        String username,password;
         List<NameValuePair> params = new ArrayList<NameValuePair>();
         @Override
         protected String doInBackground(String... values) {
             // values[0]=email;
             //values[1]=password;
-            String username = values[0];
-            String password = values[1];
+             username = values[0];
+             password = values[1];
             params.add(new BasicNameValuePair("userid",username));
             params.add(new BasicNameValuePair("password",password));
 
@@ -107,9 +108,9 @@ Typeface typeface;
                 Toast.makeText(getApplicationContext(),result,Toast.LENGTH_SHORT).show();
             else
             {
-             //   Intent next = new Intent(this,CategoryClass.class);
-
-               // startActivity(next);
+                Intent next = new Intent(MainActivity.this,Updation.class);
+                next.putExtra("username",username);
+                startActivity(next);
             }
         }
     }

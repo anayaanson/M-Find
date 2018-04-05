@@ -276,7 +276,7 @@ public class Registration extends AppCompatActivity {
 
     public class UserUpdate extends AsyncTask<String,String,String>{
         String result;
-        String URL = "http://192.168.43.101/S-MFind/userReg.php"; //GET
+        String URL = new getUrl().setUrl("userReg.php"); //GET
         JSONParserArray jParser = new JSONParserArray();
         JSONArray jArray;
         List<NameValuePair> params = new ArrayList<NameValuePair>();

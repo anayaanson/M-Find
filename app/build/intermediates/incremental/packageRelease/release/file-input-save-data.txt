@@ -1,0 +1,31 @@
+#Internal package file, do not edit.
+#Thu Apr 05 12:29:38 IST 2018
+2.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/assets/release
+5.set=ASSET
+0.path=fonts/um.ttf
+2.baseType=DIRECTORY
+3.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/assets/release
+2.set=ASSET
+1.path=fonts/font4.ttf
+4.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/assets/release
+count=7
+5.baseType=DIRECTORY
+2.path=fonts/bold.ttf
+5.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/assets/release
+4.set=ASSET
+3.path=fonts/font3.ttf
+6.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/transforms/dex/release/0
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=fonts/font1.ttf
+6.set=DEX
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=fonts/font2.ttf
+0.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/assets/release
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=classes.dex
+1.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find/app/build/intermediates/assets/release
+4.baseType=DIRECTORY
+0.set=ASSET
